@@ -141,8 +141,6 @@
   transition: all 0.4s;
 }
 
-/* coupon-block */
-
 section {
   margin-bottom: 20px;
 }
@@ -267,6 +265,24 @@ section {
 .coupon-card-text span {
   font-weight: normal;
 }
+
+/* 功能7 分支名稱 coupon-block  */
+.section-spacer {
+  margin-block: 1.5rem;
+}
+
+.coupon-box {
+  background-color: skyblue;
+  padding: 1.25rem;
+}
+
+.coupon-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+/* coupon-block */
 
 /* air-ticket-block */
 .air-ticket {
