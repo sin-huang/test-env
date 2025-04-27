@@ -1,0 +1,123 @@
+.header {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0b8521;
+    margin: 0 0 10px 0;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav ul li a {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .aside-box {
+    width: 220px;
+  }
+
+  .aside-image img{
+
+    border-radius: 4px;
+  }
+   
+  .search-list li {
+    margin-bottom: 6px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+
+  .recommend-header {
+    margin-bottom: 15px;
+  }
+  
+  .recommend-button {
+    background-color: #0b8521;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    display: flex;
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 130px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    height: 100%; 
+  }
+  
+  .card-text .price {
+    margin-top: auto; 
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 16px;
+    align-self: flex-end; 
+  }
+  
+  .card-text h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .price {
+    margin-top: 5px;
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .more-link {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .more-link a {
+    color: #0b8521;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
