@@ -4,17 +4,14 @@
   padding: 10px 40px;
 }
 
-/* Logo + Menu 整體容器：垂直排列 */
 .global-header {
   display: flex;
   justify-content: space-between;
-  /* ✅ 左右對齊 */
   align-items: center;
 }
 
 .global-logo {
   display: flex;
-  align-items: center;
   font-size: 28px;
   font-weight: 700;
 }
@@ -22,9 +19,9 @@
 .green-triangle-logo {
   width: 0;
   height: 0;
-  border-left: 20px solid #3ab67a;
+  border-left: 20px solid #11d073;
   border-bottom: 20px solid transparent;
-  margin-right: 8px;
+  margin-right: -8px;
 }
 
 .nav-menu {
@@ -46,7 +43,7 @@
 }
 
 .nav-menu li a:hover {
-  color: #3ab67a;
+  color: #11d073;
 }
 
 .nav-menu li a::after {
@@ -56,7 +53,7 @@
   left: 0;
   height: 4px;
   width: 0%;
-  background-color: #3ab67a;
+  background-color: #11d073;
   transition: width 0.3s;
 }
 
@@ -64,9 +61,9 @@
   width: 100%;
 }
 .recommend-button {
-  width: 64px;
+  width: 96px;
   display: inline-block;
-  background-color: #3ab67a;
+  background-color: #11d073;
   color: #fff;
   font-size: 16px;
   padding: 6px 16px;
@@ -77,7 +74,6 @@
   margin-bottom: 24px;
 }
 
-/* 卡片容器：橫向排列三張卡片 */
 .cards-container {
   display: flex;
   justify-content: center;
@@ -138,11 +134,11 @@
   font-weight: normal;
 }
 .more-link {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  color: #3ab67a;
+  color: #11d073;
   margin-top: 24px;
   margin-right: 40px;
   float: right;
